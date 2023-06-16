@@ -14,7 +14,7 @@ export const initializeS3 = () => {
 
 const params = {
     Bucket: process.env.S3_BUCKET_NAME,
-    Key: "Production and Growth.pdf",
+    Key: "prologue.pdf",
     Expires: 60,
     ContentType: 'application/pdf',
     ACL: 'public-read'
